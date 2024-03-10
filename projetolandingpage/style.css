@@ -1,0 +1,178 @@
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(IMG/1600w-lKp1cXK1ybY.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    color: #fff;
+}
+ 
+.navbar {
+    display: flex;
+    align-content: center;
+}
+
+.btn {
+    justify-content: center;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: rgb(255, 255, 255);
+    
+}
+
+.logo {
+    
+    width: 100px;
+    height: 100px;
+}
+
+
+
+.qualidades, .area, .genero, .nomeSobrenome {
+    background-color: rgba(51, 34, 80, 0.7); /* Fundo preto com opacidade */
+    padding: 20px;
+    border-radius: 10px; /* Borda arredondada */
+    margin-bottom: 20px; /* Espaço entre seções */
+}
+
+.qualidades .qualityText, .area .areaText, .genero .generoText, .nomeSobrenome .nomeText {
+    margin-bottom: 10px; /* Espaço abaixo dos títulos */
+}
+
+/* Estilizando os checkboxes e radios para serem mais visuais */
+.form-check-input {
+    margin-right: 5px;
+}
+
+.btnEnviar {
+    margin-top: 20px; /* Espaço acima do botão ENVIAR */
+}
+
+/* Estilizando o botão ENVIAR */
+.btn-outline-success {
+    background-color: #28a745; /* Cor de fundo do botão */
+    color: #fff; /* Cor do texto do botão */
+    border-color: #28a745; /* Cor da borda do botão */
+    border-radius: 10px; /* Borda arredondada */
+}
+
+.btn-outline-success:hover {
+    background-color: #218838; /* Cor de fundo do botão ao passar o mouse */
+    border-color: #1e7e34; /* Cor da borda do botão ao passar o mouse */
+}
+
+.footer {
+   
+    text-align: center;
+    padding: 5px;
+    margin-top: 30rem;
+    
+}
+
+.futuro {
+    text-align: center;
+    align-items: center;
+}
+
+p {
+    font-size: 18px;
+    text-decoration: solid;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.conheça {
+    font-size: 2rem;
+    border: solid 3px blueviolet;
+    border-radius: 1rem;
+    text-decoration: none;
+    background-color: rgb(188, 145, 228);
+    color: black;
+    margin-top: 25rem;
+}
+.inscrevase > a {
+   font-size: 2rem;
+   border: white soli 2px;
+    font-size: 2rem;
+    
+
+}
+
+.inscrevase > a {
+    text-decoration: none; 
+    color: rgb(0, 0, 0);
+    font-size: 2rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 1rem;
+    padding: 5px;
+}
+
+.inscrevase {
+    margin-top: 4rem;
+   
+}
+
+
+ .inscrevase > a:hover {
+    border: solid 8px rgb(128, 128, 128);
+ }
+.textMerchan {
+    border: solid 2px white;
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 2rem;
+    display: inline-block;
+    padding: 5px;
+}
+
+.cursos {
+text-decoration: none;
+padding: 3px;
+margin: 3px;
+
+
+}
+
+.imgcurso {
+    max-width: 100px; /* ajuste conforme necessário */
+    max-height: 250px; /* ajuste conforme necessário */
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    border: solid 5px blueviolet;
+}
+
+.imgcurso:hover {
+    border: solid 7px rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.carousel-item img {
+    height: 100px; 
+    object-fit: cover; 
+  }
+
+
+  .carousel-item > img {
+    width: 100px;
+    height: 300px;
+    border: solid 1px white;
+  }
+
+  .carousel:hover {
+    cursor: pointer;
+    border: solid 8px rgb(255, 255, 255);
+    border-radius: 8px;
+  }
+
+ 
